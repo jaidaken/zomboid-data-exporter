@@ -45,7 +45,6 @@ local function SendPlayerData()
 				bodyDamage = safeGet("bodyDamage", function() return player:getBodyDamage():getOverallBodyHealth() end),
 				temperature = safeGet("temperature", function() return player:getBodyDamage():getTemperature() end),
 				wetness = safeGet("wetness", function() return player:getBodyDamage():getWetness() end),
-				fatigueLevel = safeGet("fatigueLevel", function() return player:getStats():getFatigueLevel() end),
 				infectionLevel = safeGet("infectionLevel", function() return player:getBodyDamage():getInfectionLevel() end),
         skills = {}
     }
