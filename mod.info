@@ -1,0 +1,4 @@
+name=AL Export
+id=al-export
+description=This mod exports data from Project Zomboid, into a csv for each character
+poster=poster.png
